@@ -2,6 +2,7 @@
     "name": "elgentos/frontend2fa",
     "description": "Magento 2 Frontend 2FA implementation",
     "require": {
+        "php": "^7.4 || ^8.0",
         "juashyam/authenticator": "dev-master",
         "endroid/qr-code": "^6"
     },
@@ -16,5 +17,11 @@
         "psr-4": {
             "Elgentos\\Frontend2FA\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+    	    "type": "vcs",
+    	    "url": "https://github.com/xtremevision/2-Factor-Authentication.git"
+	}
+    ]    
 }
