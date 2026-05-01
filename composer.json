@@ -4,7 +4,7 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "juashyam/authenticator": "^0.0.3",
-        "endroid/qr-code": "^6"
+        "endroid/qr-code": "^4.3.5"
     },
     "type": "magento2-module",
     "license": [
